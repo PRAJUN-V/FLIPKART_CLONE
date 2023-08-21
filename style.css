@@ -1,0 +1,265 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,Arial;
+    background-color: rgb(249, 252, 255);
+}
+
+.header{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.flipkart-img{
+    padding-top: 15px;
+    padding-left: 10px
+}
+
+.flipkart-img img{
+    width: 130px;
+    height: 22px
+}
+.logo-words{
+    padding-left: 50px;
+}
+.logo-words a{
+    text-decoration: none;
+}
+.explore,.plus{
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bolder;
+}
+.explore{
+    color: #9E9E9E;
+}
+.plus{
+    color: #FFC200;
+}
+.search{
+    
+    padding-top: 15px;
+}
+.search-field{
+    background-color: rgba(232, 237, 248, 0.733);
+    border-style: none;
+    height: 40px;
+    width: 550px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.search-field:focus{
+    border-style: none;
+}
+.search-button{
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.search-button button{
+    background-color: rgba(232, 237, 248, 0.733);
+    width: 50px;
+    height: 42px;
+    border-style: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.img-store{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.store-word{
+    padding-top: 23px;
+    padding-left: 10px;
+    font-weight: 400;
+
+}
+.store-word span a{
+    text-decoration: none;
+    color: black;
+}
+.sign-in{
+    padding-top: 15px;
+
+}
+.word-sign-in{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+.word-sign-in a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+.down-arrow{
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+.cart{
+    padding-top: 20px;
+    padding-left: 55px;
+}
+.cart-word{
+    padding-top: 23px;
+    padding-left: 10px;
+    
+}
+.cart-word a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+.more{
+    padding-top: 12px;
+    padding-left: 50px;
+}
+.more button{
+    
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.main-sign-in{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-bottom: 12px;
+}
+.main-sign-in:hover{
+    background-color: blue;
+    height: 40px;
+}
+.container1{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container1 img{
+    width: 100%;
+}
+.white-space{
+    background-color: white;
+    width: 75%;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-bottom: 20px;
+}
+.white-space h1{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.advertisement2{
+    width: 178px;
+    height: 271px;
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 3px;
+}
+.container3{
+    display: flex;
+}
+.advertisement2 img{
+    width: 165px;
+    height: 165px;
+    margin-left: 7px;
+    margin-top: 14px;
+}
+.item , .rate{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.item{
+    margin-top: 16px;
+}
+.rate{
+    font-weight: bold;
+}
+.container4{
+    background-color: white;
+    width: 1329px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 8px;
+    display: flex;
+}
+.main-ads img{
+    margin-left: 75px;
+    margin-top: 15px;
+}
+.main-content{
+    margin-left: 75px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+.container2{
+    display: flex;
+    padding-bottom: 15px;
+}
+.travel-ad img{
+    width: 209px;
+    height: 320px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.container6 {
+    margin-left: 100px;
+    background-color: white;
+    width: 98%;
+    height: 650px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.small-ad{
+    display: flex;
+}
+.container7{
+    display: flex;
+}
+.big-img-img{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 90px;
+    
+}
+.container6 img:hover{
+    transform: scale(1.05);
+}
+.container3 img:hover{
+    transform: scale(1.05);
+}
+.container6 img{
+    cursor: pointer;
+}
+.container3 img{
+    cursor: pointer;
+}
+.container1{
+    cursor: pointer;
+}
+.container4 .main-ads{
+    cursor: pointer;
+}
+.travel-ad{
+    cursor: pointer;
+}
