@@ -264,3 +264,6 @@ body{
 .travel-ad{
     cursor: pointer;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
